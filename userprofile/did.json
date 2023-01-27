@@ -7,7 +7,14 @@
     "type": "Secp256k1",
     "controller": "did:web:support.xck.app",
     "stacksAddress": "SP3VBHA63ZTZFWTBJWHV775WR3PBZ64B26AYX2CF"
-    }
+    },
+    ;; the nostr app uses Secp256k1 public key cryptography
+    {
+        "id": "did:web:support.xck.app#controller",
+        "type": "Secp256k1",
+        "controller": "did:web:support.xck.app",
+        "nostrAddress": "b0635d6a9851d3aed0cd6c495b282167acf761729078d975fc341b22650b07b9"
+        }
     ],
     "authentication": [
     "did:web:support.xck.app#controller"
